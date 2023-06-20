@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044CEB372A41475200BF6814 /* FirstAidMedicineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB362A41475200BF6814 /* FirstAidMedicineApp.swift */; };
+		044CEB392A41475200BF6814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB382A41475200BF6814 /* ContentView.swift */; };
+		044CEB3B2A41475300BF6814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CEB3A2A41475300BF6814 /* Assets.xcassets */; };
+		044CEB3E2A41475300BF6814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CEB3D2A41475300BF6814 /* Preview Assets.xcassets */; };
+		044CEB482A41475300BF6814 /* FirstAidMedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB472A41475300BF6814 /* FirstAidMedicineTests.swift */; };
+		044CEB522A41475300BF6814 /* FirstAidMedicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */; };
+		044CEB542A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044CEB442A41475300BF6814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044CEB2B2A41475200BF6814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044CEB322A41475200BF6814;
+			remoteInfo = FirstAidMedicine;
+		};
+		044CEB4E2A41475300BF6814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044CEB2B2A41475200BF6814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044CEB322A41475200BF6814;
+			remoteInfo = FirstAidMedicine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044CEB332A41475200BF6814 /* FirstAidMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAidMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CEB362A41475200BF6814 /* FirstAidMedicineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineApp.swift; sourceTree = "<group>"; };
+		044CEB382A41475200BF6814 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		044CEB3A2A41475300BF6814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044CEB3D2A41475300BF6814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044CEB432A41475300BF6814 /* FirstAidMedicineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAidMedicineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CEB472A41475300BF6814 /* FirstAidMedicineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineTests.swift; sourceTree = "<group>"; };
+		044CEB4D2A41475300BF6814 /* FirstAidMedicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAidMedicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITests.swift; sourceTree = "<group>"; };
+		044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044CEB302A41475200BF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB402A41475300BF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB4A2A41475300BF6814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044CEB2A2A41475200BF6814 = {
+			isa = PBXGroup;
+			children = (
+				044CEB352A41475200BF6814 /* FirstAidMedicine */,
+				044CEB462A41475300BF6814 /* FirstAidMedicineTests */,
+				044CEB502A41475300BF6814 /* FirstAidMedicineUITests */,
+				044CEB342A41475200BF6814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044CEB342A41475200BF6814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB332A41475200BF6814 /* FirstAidMedicine.app */,
+				044CEB432A41475300BF6814 /* FirstAidMedicineTests.xctest */,
+				044CEB4D2A41475300BF6814 /* FirstAidMedicineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044CEB352A41475200BF6814 /* FirstAidMedicine */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB362A41475200BF6814 /* FirstAidMedicineApp.swift */,
+				044CEB382A41475200BF6814 /* ContentView.swift */,
+				044CEB3A2A41475300BF6814 /* Assets.xcassets */,
+				044CEB3C2A41475300BF6814 /* Preview Content */,
+			);
+			path = FirstAidMedicine;
+			sourceTree = "<group>";
+		};
+		044CEB3C2A41475300BF6814 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB3D2A41475300BF6814 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044CEB462A41475300BF6814 /* FirstAidMedicineTests */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB472A41475300BF6814 /* FirstAidMedicineTests.swift */,
+			);
+			path = FirstAidMedicineTests;
+			sourceTree = "<group>";
+		};
+		044CEB502A41475300BF6814 /* FirstAidMedicineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */,
+				044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */,
+			);
+			path = FirstAidMedicineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044CEB322A41475200BF6814 /* FirstAidMedicine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CEB572A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicine" */;
+			buildPhases = (
+				044CEB2F2A41475200BF6814 /* Sources */,
+				044CEB302A41475200BF6814 /* Frameworks */,
+				044CEB312A41475200BF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstAidMedicine;
+			productName = FirstAidMedicine;
+			productReference = 044CEB332A41475200BF6814 /* FirstAidMedicine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044CEB422A41475300BF6814 /* FirstAidMedicineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CEB5A2A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicineTests" */;
+			buildPhases = (
+				044CEB3F2A41475300BF6814 /* Sources */,
+				044CEB402A41475300BF6814 /* Frameworks */,
+				044CEB412A41475300BF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044CEB452A41475300BF6814 /* PBXTargetDependency */,
+			);
+			name = FirstAidMedicineTests;
+			productName = FirstAidMedicineTests;
+			productReference = 044CEB432A41475300BF6814 /* FirstAidMedicineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044CEB4C2A41475300BF6814 /* FirstAidMedicineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CEB5D2A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicineUITests" */;
+			buildPhases = (
+				044CEB492A41475300BF6814 /* Sources */,
+				044CEB4A2A41475300BF6814 /* Frameworks */,
+				044CEB4B2A41475300BF6814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044CEB4F2A41475300BF6814 /* PBXTargetDependency */,
+			);
+			name = FirstAidMedicineUITests;
+			productName = FirstAidMedicineUITests;
+			productReference = 044CEB4D2A41475300BF6814 /* FirstAidMedicineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044CEB2B2A41475200BF6814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					044CEB322A41475200BF6814 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					044CEB422A41475300BF6814 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 044CEB322A41475200BF6814;
+					};
+					044CEB4C2A41475300BF6814 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 044CEB322A41475200BF6814;
+					};
+				};
+			};
+			buildConfigurationList = 044CEB2E2A41475200BF6814 /* Build configuration list for PBXProject "FirstAidMedicine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044CEB2A2A41475200BF6814;
+			productRefGroup = 044CEB342A41475200BF6814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044CEB322A41475200BF6814 /* FirstAidMedicine */,
+				044CEB422A41475300BF6814 /* FirstAidMedicineTests */,
+				044CEB4C2A41475300BF6814 /* FirstAidMedicineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044CEB312A41475200BF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CEB3E2A41475300BF6814 /* Preview Assets.xcassets in Resources */,
+				044CEB3B2A41475300BF6814 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB412A41475300BF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB4B2A41475300BF6814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044CEB2F2A41475200BF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CEB392A41475200BF6814 /* ContentView.swift in Sources */,
+				044CEB372A41475200BF6814 /* FirstAidMedicineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB3F2A41475300BF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CEB482A41475300BF6814 /* FirstAidMedicineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044CEB492A41475300BF6814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CEB542A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift in Sources */,
+				044CEB522A41475300BF6814 /* FirstAidMedicineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044CEB452A41475300BF6814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044CEB322A41475200BF6814 /* FirstAidMedicine */;
+			targetProxy = 044CEB442A41475300BF6814 /* PBXContainerItemProxy */;
+		};
+		044CEB4F2A41475300BF6814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044CEB322A41475200BF6814 /* FirstAidMedicine */;
+			targetProxy = 044CEB4E2A41475300BF6814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		044CEB552A41475300BF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044CEB562A41475300BF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044CEB582A41475300BF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirstAidMedicine/Preview Content\"";
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044CEB592A41475300BF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirstAidMedicine/Preview Content\"";
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044CEB5B2A41475300BF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstAidMedicine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstAidMedicine";
+			};
+			name = Debug;
+		};
+		044CEB5C2A41475300BF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstAidMedicine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstAidMedicine";
+			};
+			name = Release;
+		};
+		044CEB5E2A41475300BF6814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirstAidMedicine;
+			};
+			name = Debug;
+		};
+		044CEB5F2A41475300BF6814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36L5R9KN22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.FirstAidMedicineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirstAidMedicine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044CEB2E2A41475200BF6814 /* Build configuration list for PBXProject "FirstAidMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CEB552A41475300BF6814 /* Debug */,
+				044CEB562A41475300BF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CEB572A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CEB582A41475300BF6814 /* Debug */,
+				044CEB592A41475300BF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CEB5A2A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CEB5B2A41475300BF6814 /* Debug */,
+				044CEB5C2A41475300BF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CEB5D2A41475300BF6814 /* Build configuration list for PBXNativeTarget "FirstAidMedicineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CEB5E2A41475300BF6814 /* Debug */,
+				044CEB5F2A41475300BF6814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044CEB2B2A41475200BF6814 /* Project object */;
+}
