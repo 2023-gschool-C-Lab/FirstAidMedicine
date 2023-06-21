@@ -14,6 +14,7 @@
 		044CEB482A41475300BF6814 /* FirstAidMedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB472A41475300BF6814 /* FirstAidMedicineTests.swift */; };
 		044CEB522A41475300BF6814 /* FirstAidMedicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */; };
 		044CEB542A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */; };
+		0469C3672A428E39008E8968 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C3662A428E39008E8968 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		044CEB4D2A41475300BF6814 /* FirstAidMedicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAidMedicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITests.swift; sourceTree = "<group>"; };
 		044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0469C3662A428E39008E8968 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				044CEB362A41475200BF6814 /* FirstAidMedicineApp.swift */,
 				044CEB382A41475200BF6814 /* ContentView.swift */,
+				0469C3662A428E39008E8968 /* Home.swift */,
 				044CEB3A2A41475300BF6814 /* Assets.xcassets */,
 				044CEB3C2A41475300BF6814 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				044CEB392A41475200BF6814 /* ContentView.swift in Sources */,
+				0469C3672A428E39008E8968 /* Home.swift in Sources */,
 				044CEB372A41475200BF6814 /* FirstAidMedicineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
