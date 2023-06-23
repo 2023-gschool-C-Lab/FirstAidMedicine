@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>257528483548-t585j2rnl7a3bkums9bunijgtaakjs3s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.257528483548-t585j2rnl7a3bkums9bunijgtaakjs3s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAeBCu8COCIb68qxhSvMfE4ZP79CSxNs7w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>257528483548</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.leeo.FirstAidMedicine</string>
+	<key>PROJECT_ID</key>
+	<string>firstaidkit-220e0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firstaidkit-220e0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:257528483548:ios:7236c38b1d72bc5646ae19</string>
+</dict>
+</plist>
