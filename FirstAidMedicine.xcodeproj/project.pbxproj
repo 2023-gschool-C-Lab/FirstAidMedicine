@@ -14,7 +14,15 @@
 		044CEB482A41475300BF6814 /* FirstAidMedicineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB472A41475300BF6814 /* FirstAidMedicineTests.swift */; };
 		044CEB522A41475300BF6814 /* FirstAidMedicineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */; };
 		044CEB542A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */; };
-		0469C3672A428E39008E8968 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C3662A428E39008E8968 /* Home.swift */; };
+		0469C3672A428E39008E8968 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469C3662A428E39008E8968 /* Medicine.swift */; };
+		04F91CCA2A4527C900357895 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04F91CC92A4527C900357895 /* GoogleService-Info.plist */; };
+		04F91CCE2A452A1D00357895 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 04F91CCD2A452A1D00357895 /* FirebaseAnalytics */; };
+		04F91CD12A45393500357895 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04F91CD02A45393500357895 /* FirebaseAuth */; };
+		04F91CD32A45393500357895 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 04F91CD22A45393500357895 /* FirebaseFirestore */; };
+		04F91CD52A45393500357895 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04F91CD42A45393500357895 /* FirebaseFirestoreSwift */; };
+		04F91CD72A453AFC00357895 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F91CD62A453AFC00357895 /* AuthViewModel.swift */; };
+		04F91CDC2A45407E00357895 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F91CDB2A45407E00357895 /* User.swift */; };
+		04F91CDE2A4540BC00357895 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F91CDD2A4540BC00357895 /* LoginState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +53,11 @@
 		044CEB4D2A41475300BF6814 /* FirstAidMedicineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAidMedicineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CEB512A41475300BF6814 /* FirstAidMedicineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITests.swift; sourceTree = "<group>"; };
 		044CEB532A41475300BF6814 /* FirstAidMedicineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAidMedicineUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0469C3662A428E39008E8968 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0469C3662A428E39008E8968 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		04F91CC92A4527C900357895 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04F91CD62A453AFC00357895 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		04F91CDB2A45407E00357895 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		04F91CDD2A4540BC00357895 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F91CCE2A452A1D00357895 /* FirebaseAnalytics in Frameworks */,
+				04F91CD12A45393500357895 /* FirebaseAuth in Frameworks */,
+				04F91CD32A45393500357895 /* FirebaseFirestore in Frameworks */,
+				04F91CD52A45393500357895 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 				044CEB462A41475300BF6814 /* FirstAidMedicineTests */,
 				044CEB502A41475300BF6814 /* FirstAidMedicineUITests */,
 				044CEB342A41475200BF6814 /* Products */,
+				04F91CCF2A45393500357895 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +113,11 @@
 		044CEB352A41475200BF6814 /* FirstAidMedicine */ = {
 			isa = PBXGroup;
 			children = (
+				04F91CC92A4527C900357895 /* GoogleService-Info.plist */,
 				044CEB362A41475200BF6814 /* FirstAidMedicineApp.swift */,
-				044CEB382A41475200BF6814 /* ContentView.swift */,
-				0469C3662A428E39008E8968 /* Home.swift */,
+				04F91CD82A453FC200357895 /* Model */,
+				04F91CD92A453FD000357895 /* Views */,
+				04F91CDA2A45403E00357895 /* ViewModel */,
 				044CEB3A2A41475300BF6814 /* Assets.xcassets */,
 				044CEB3C2A41475300BF6814 /* Preview Content */,
 			);
@@ -130,6 +149,39 @@
 			path = FirstAidMedicineUITests;
 			sourceTree = "<group>";
 		};
+		04F91CCF2A45393500357895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F91CD82A453FC200357895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04F91CDB2A45407E00357895 /* User.swift */,
+				04F91CDD2A4540BC00357895 /* LoginState.swift */,
+				0469C3662A428E39008E8968 /* Medicine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04F91CD92A453FD000357895 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				044CEB382A41475200BF6814 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F91CDA2A45403E00357895 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04F91CD62A453AFC00357895 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +198,12 @@
 			dependencies = (
 			);
 			name = FirstAidMedicine;
+			packageProductDependencies = (
+				04F91CCD2A452A1D00357895 /* FirebaseAnalytics */,
+				04F91CD02A45393500357895 /* FirebaseAuth */,
+				04F91CD22A45393500357895 /* FirebaseFirestore */,
+				04F91CD42A45393500357895 /* FirebaseFirestoreSwift */,
+			);
 			productName = FirstAidMedicine;
 			productReference = 044CEB332A41475200BF6814 /* FirstAidMedicine.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 044CEB2A2A41475200BF6814;
+			packageReferences = (
+				04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 044CEB342A41475200BF6814 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +297,7 @@
 			files = (
 				044CEB3E2A41475300BF6814 /* Preview Assets.xcassets in Resources */,
 				044CEB3B2A41475300BF6814 /* Assets.xcassets in Resources */,
+				04F91CCA2A4527C900357895 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F91CD72A453AFC00357895 /* AuthViewModel.swift in Sources */,
+				04F91CDE2A4540BC00357895 /* LoginState.swift in Sources */,
 				044CEB392A41475200BF6814 /* ContentView.swift in Sources */,
-				0469C3672A428E39008E8968 /* Home.swift in Sources */,
+				0469C3672A428E39008E8968 /* Medicine.swift in Sources */,
+				04F91CDC2A45407E00357895 /* User.swift in Sources */,
 				044CEB372A41475200BF6814 /* FirstAidMedicineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +652,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04F91CCD2A452A1D00357895 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		04F91CD02A45393500357895 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		04F91CD22A45393500357895 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		04F91CD42A45393500357895 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04F91CCC2A452A1D00357895 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 044CEB2B2A41475200BF6814 /* Project object */;
 }
