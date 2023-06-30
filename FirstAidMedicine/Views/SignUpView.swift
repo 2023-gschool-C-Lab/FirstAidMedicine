@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct SignUpView: View {
     @EnvironmentObject var authViewModel : AuthViewModel
@@ -75,6 +76,7 @@ struct SignUpView: View {
         }
 
     }
+        
 }
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
