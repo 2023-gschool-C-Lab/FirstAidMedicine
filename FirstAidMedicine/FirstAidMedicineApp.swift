@@ -27,12 +27,14 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct FirstAidMedicine: App {
   // register app delegate for Firebase setup
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var authViewModel = AuthViewModel()
     // '@'attribute를 이용해서 앱 진입을 연결하고, 클래스를 선언한다음. 해당 변수에 넘겨준다.
 
   var body: some Scene {
     WindowGroup {
       NavigationView {
-        ContentView()
+        SignInView()
+              .environmentObject(authViewModel)
       }
     }
   }

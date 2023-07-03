@@ -37,7 +37,8 @@ final class AuthViewModel: ObservableObject {
         loginState = .loggedIn
     }
     
-    func signInUser(withEmail email : String, password : String, fullName: String) async throws {
+    
+    func signInUser(withEmail email : String, password : String) async throws {
         try await Auth.auth().signIn(withEmail : email, password : password)
         loginState = .loggedIn
     }
