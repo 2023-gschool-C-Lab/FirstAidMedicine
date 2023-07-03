@@ -22,7 +22,6 @@ struct LoginView: View {
                     SignUpView()
                 }
             }
-            .navigationTitle(authViewModel.loginState.navigationTitle)
         }
     }
 }
