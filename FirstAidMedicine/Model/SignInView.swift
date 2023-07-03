@@ -13,9 +13,27 @@ struct SignInView: View {
     @State var email: String = ""  // 변경된 값을 authviewModel에 연동되고 변경되니 State
     @State var password: String = "" // 변경된 값을 authviewModel에 연동되고 변경되니 State
     @State var errorMessage = "" // 에러메세지는 해당 에러에 따라 다르므로 State 에러
-
+    
     var body: some View {
         VStack {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("로그인")
+                        .fontWeight(.bold)
+                        .font(.system(size: 25))
+                        .foregroundColor(Color(hex :0x5762EA))
+                    
+                    Spacer()
+                        .frame(maxHeight: 3)
+                    
+                    Text("구급키트 앱에 오신것을 환영합니다!")
+                        .fontWeight(.medium)
+                        .font(.system(size: 15))
+                }
+                Spacer()
+            }
+            Spacer()
+                .frame(maxHeight : 25)
             
             VStack { // 사용자의 상호작용 뷰 컨테이너
                 TextField( // 매개변수와 옵션을 통해 사용쟈의 인터페이스 조성
@@ -27,11 +45,11 @@ struct SignInView: View {
                 .textFieldStyle(PlainTextFieldStyle())
                 .padding()
                 .background(
-                  Capsule()
-                .strokeBorder(Color(hex: 0xD9D9D9), lineWidth: 1)
+                    Capsule()
+                        .strokeBorder(Color(hex: 0xD9D9D9), lineWidth: 1)
                 )
                 .frame(height:51)
-              .textInputAutocapitalization(.never) // 텍스트가 자동으로 대문자화 되는 것을 막겠다.
+                .textInputAutocapitalization(.never) // 텍스트가 자동으로 대문자화 되는 것을 막겠다.
                 Spacer()
                     .frame(maxHeight : 15)
                 
@@ -44,9 +62,9 @@ struct SignInView: View {
                 .textFieldStyle(PlainTextFieldStyle())
                 .padding()
                 .background(
-                Capsule()
-                  .strokeBorder(Color(hex: 0xD9D9D9), lineWidth: 1)
-                               )
+                    Capsule()
+                        .strokeBorder(Color(hex: 0xD9D9D9), lineWidth: 1)
+                )
                 .frame(height : 51)
                 .textInputAutocapitalization(.never)  // 텍스트가 자동으로 대문자화 되는 것을 막겠다.
             }
@@ -79,6 +97,7 @@ struct SignInView: View {
             
             
             Button {
+                
                 authViewModel.loginState = .notSigned // 버튼을 누르면 로그인의 상태를 로그인 되지 않음으로 변경한다.
             } label: {
                 Text("아직 회원이 아니신가요?")
@@ -99,6 +118,7 @@ struct SignInView: View {
             Text(errorMessage) //라벨에 메세지를 띄워라
         }
     }
+    
 }
 
 
